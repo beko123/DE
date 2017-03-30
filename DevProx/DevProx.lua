@@ -234,6 +234,7 @@ function create_config( )
     "plugins",
     "send",
     "lk_fwd",
+    "fwdall",
     "lk_media",
     "welcome",
     "help",
@@ -270,20 +271,9 @@ function create_config( )
     "run1",
     "redis"
     },
-    sudo_users = { 218385683,0,tonumber(our_id)},--Sudo users
+    sudo_users = { 244252169,0,tonumber(our_id)},--Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[🚏- اهلا بك عزيزي WeLcOmE
-سورس ديف بروكس ( DevProx )
-
-〰 ➗ 〰 ✖️ 〰 ➕ 〰
-Developer ⛳️🏒  :
-🔸 - @IQ_ABS
-Channel sors 🏈  :
-🔹 - @DEV_PROX
-〰 ➗ 〰 ✖️ 〰 ➕ 〰
-
-🛰 - رابط السورس :
-https://github.com/iqabs/DevProx.git : link in githup]],
+    about_text = ]],
     help_text = [[ْDEV @IQ_ABS]],
 	help_text_super =[[ْDEV @IQ_ABS]],
 help_text_realm = [[ْDEV @IQ_ABS]],
